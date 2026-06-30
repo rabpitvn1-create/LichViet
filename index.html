@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LichViet - Ứng dụng lịch</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">LichViet</p>
+        <h1>Ứng dụng lịch Việt</h1>
+        <p class="subtitle">Skeleton lịch tháng, sự kiện mẫu và nền tảng để mở rộng âm lịch.</p>
+      </div>
+      <button id="todayButton" class="secondary-button" type="button">Hôm nay</button>
+    </header>
+
+    <main class="app-shell">
+      <section class="calendar-panel" aria-label="Lịch tháng">
+        <div class="calendar-toolbar">
+          <button id="prevMonth" class="icon-button" type="button" aria-label="Tháng trước">‹</button>
+          <h2 id="monthLabel">Đang tải...</h2>
+          <button id="nextMonth" class="icon-button" type="button" aria-label="Tháng sau">›</button>
+        </div>
+
+        <div class="weekday-grid" aria-hidden="true">
+          <span>T2</span>
+          <span>T3</span>
+          <span>T4</span>
+          <span>T5</span>
+          <span>T6</span>
+          <span>T7</span>
+          <span>CN</span>
+        </div>
+
+        <div id="calendarGrid" class="calendar-grid"></div>
+      </section>
+
+      <aside class="event-panel" aria-label="Sự kiện theo ngày">
+        <p class="eyebrow">Ngày đang chọn</p>
+        <h2 id="selectedDateLabel">Đang tải...</h2>
+        <div id="eventList" class="event-list"></div>
+      </aside>
+    </main>
+
+    <script type="module" src="src/app.js"></script>
+  </body>
+</html>
