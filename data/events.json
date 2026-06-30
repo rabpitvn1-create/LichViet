@@ -1,0 +1,20 @@
+[
+  {
+    "date": "2026-07-01",
+    "time": "09:00",
+    "title": "Khởi tạo LichViet",
+    "description": "Mốc bắt đầu skeleton ứng dụng lịch."
+  },
+  {
+    "date": "2026-07-02",
+    "time": "14:00",
+    "title": "Thiết kế dữ liệu sự kiện",
+    "description": "Xác định model sự kiện, ngày lễ và dữ liệu âm lịch."
+  },
+  {
+    "date": "2026-07-05",
+    "time": "Cả ngày",
+    "title": "Ngày mẫu",
+    "description": "Sự kiện mẫu để kiểm tra hiển thị nhiều ngày."
+  }
+]
